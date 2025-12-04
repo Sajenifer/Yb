@@ -1,0 +1,41 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:aliceblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color:bisque;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+.navbar button {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.main-content {
+  margin-right: 220px;
+  padding: 2rem;
+}
